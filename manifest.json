@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "ff wrdi poc",
+    "version": "0.0.0.0",
+    "description": "poc to intercept downloads using blocking web request api",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "downloads",
+        "webRequestFilterResponse",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+  }
+  
